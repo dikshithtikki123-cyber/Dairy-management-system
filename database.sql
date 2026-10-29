@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS dairy_management;
+
+USE dairy_management;
+
+CREATE TABLE IF NOT EXISTS customers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    address VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS milk_records (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    farmer VARCHAR(100) NOT NULL,
+    quantity DECIMAL(10,2) NOT NULL,
+    date DATE NOT NULL
+);
