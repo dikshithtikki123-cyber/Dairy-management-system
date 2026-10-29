@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8f0;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #218838;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 600px;
+            margin: auto;
+        }
+        a {
+            display: inline-block;
+            background: #218838;
+            color: white;
+            padding: 12px 20px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome to Dairy Management System</h1>
+        <p>Manage dairy farming, milk production, customers, and sales.</p>
+
+        <a href="login.php">Admin Login</a>
+        <a href="milk_records.php">Milk Records</a>
+        <a href="customers.php">Customers</a>
+    </div>
+</body>
+</html>
